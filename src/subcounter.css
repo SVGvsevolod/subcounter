@@ -1,0 +1,36 @@
+.sc_stat-counter {
+	position: relative;
+	overflow: hidden;
+}
+.sc_stat-counter ul {
+	top: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+.sc_stat-counter .animate {
+	transition: top ease 0.5s;
+	-o-transition: top ease 0.5s;
+	-ms-transition: top ease 0.5s;
+	-moz-transition: top ease 0.5s;
+	-webkit-transition: top ease 0.5s;
+}
+.sc_stat-counter .comma {
+	padding-right: 6%;
+}
+.sc_stat-counter .comma:after {
+	content: ",";
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.yt-subscription-button-subscriber-count-branded-horizontal {
+	position: relative;
+}
+#subscriber-count {
+	display: inline-flex;
+}
+#subscriber-count .sc_stat-counter {
+	margin-right: 3px;
+}
